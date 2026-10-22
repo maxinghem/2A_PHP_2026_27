@@ -6,9 +6,68 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>zzzzasad <h1/>
+    
 
-<h1>awfd</h1>
+
+
+<?php
+    $randomNumber = rand(1, 100);
+
+    if ($randomNumber % 2 === 0) {
+       for ($i = 1; $i <= $randomNumber; $i+=2) {
+           if($i % 5 === 0 && $i !== 0) {
+               echo $i . "<br>";
+           }
+           else {
+               for ($j = 1; $j <= $randomNumber; $i+=2) {
+                   echo "*";
+               }
+           }
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
