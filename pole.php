@@ -6,13 +6,51 @@
     <title>Document</title>
 </head>
 <body>
-    
+ <?php
+
+
+array $numbers = ["somarik","oslicek"];
+
+
+echo $numbers[0];
+
+foreach ($numbers as $number) {
+ echo $prvok . "<br>";
+}
 
 
 
 
 
 
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
 
 
 
